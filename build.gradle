@@ -1,0 +1,13 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+
+repositories {
+	mavenLocal()
+	mavenCentral()
+}
+
+dependencies {
+	testCompile(
+			"com.insightfullogic:lambda-behave:0.4-SNAPSHOT"
+	)
+}
